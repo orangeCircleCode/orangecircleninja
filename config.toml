@@ -1,0 +1,62 @@
+baseurl = "http://www.example.com" # Hostname (and path) to the root.
+title = "Complimentary Wifi" # Site title.
+theme = "coder-portfolio" # Set the theme.
+languagecode = "en" # The site’s language code used to generate RSS.
+defaultcontentlanguage = "en" # The default content language.
+
+paginate = 20 # Default number of pages per page in pagination.
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsUseClasses = true # new add
+
+disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
+
+[params] # theme parameters
+    author = "Sharing some free Wifi 😊" # Author's name.
+    info = "We are a creative agency that builds websites and other things" # Author's job title or info.
+    #moreinfo = ""
+    description = "But why?" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    avatarurl = "images/logo.png" # Contain the path of the optionnal avatar in the static folder.
+
+    footercontent = "Happy Browsing!" # Add footer content
+    fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
+    fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    snsShare = true # new add
+
+    thumbnail = "images/tn.png" # default sns thumbnail
+
+    # Multilanguage mode
+    langseparator = "|" # Separates menus from language selectors when site is multilingual.
+
+# Social links
+#[[params.social]]
+#    name = "Our other website"
+#    weight = 1
+#    url = "https://orangecirclecompany.com/"
+
+# Menu links
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 1
+#    url  = "posts"
+#[[menu.main]]
+#    name = "About"
+#    weight = 2
+#    url = "about"

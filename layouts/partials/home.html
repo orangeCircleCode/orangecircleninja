@@ -1,0 +1,33 @@
+<section class="container centered">
+  <div class="about">
+    {{ with .Site.Params.avatarurl }}
+      <div class="avatar"><img src="{{.}}" alt="avatar"></div>
+    {{ end }}
+    <h1>{{ .Site.Params.author }}</h1>
+    <h2>{{ .Site.Params.info }}</h2>
+    <br />
+
+    <hr />
+
+    <h4>Why this Exists</h4>
+    <p>We wanted to try to try an experiment and provide free wifi. the password is... <strong>password</strong>.</p>
+    <p>Frankly we think the cost of internet is really high, and can probably be shared across multiple households. So we are providing this free wifi to whoever wants to use it. There are a few rules we would like you to try to consider while using this free service.</p>
+
+    <hr />
+    <h3>Rules / Guidelines</h3>
+    <ol>
+      <li>Be considerate of your bandwidth</li>
+      <li>The more people that use the bandwidth the slower it could potentially get at time of use</li>
+      <li>Do not browse anything that is unlawful</li>
+      <li>Try to give back to your community</li>
+    </ol>
+    <p>
+    {{ with .Site.Params.social }}
+    <ul>
+      {{ range sort .}}
+      <li><a href="{{ .url }}">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</section>
