@@ -17,8 +17,8 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
     author = "Sharing some free Wifi 😊" # Author's name.
     info = "We are a creative agency that builds websites and other things" # Author's job title or info.
     #moreinfo = ""
-    description = "But why?" # Site description.
-    keywords = "blog,developer,personal" # Site keywords.
+    description = "Wifi for the community" # Site description.
+    keywords = "creative agency, free wifi" # Site keywords.
     avatarurl = "images/logo.png" # Contain the path of the optionnal avatar in the static folder.
 
     footercontent = "Happy Browsing!" # Add footer content
